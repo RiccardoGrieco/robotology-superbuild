@@ -14,7 +14,7 @@ find_or_build_package(OsqpEigen QUIET)
 ycm_ep_helper(HumanDynamicsEstimation TYPE GIT
               STYLE GITHUB
               REPOSITORY robotology/human-dynamics-estimation.git
-              TAG master
+              TAG 2050466fcf869877827638ecc11b57f56ec0acef
               COMPONENT human_dynamics
               FOLDER src
               CMAKE_ARGS -DHUMANSTATEPROVIDER_ENABLE_VISUALIZER:BOOL=ON

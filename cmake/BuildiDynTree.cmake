@@ -23,8 +23,8 @@ endif()
 
 ycm_ep_helper(iDynTree TYPE GIT
               STYLE GITHUB
-              REPOSITORY robotology/idyntree.git
-              TAG master
+              REPOSITORY ami-iit/idyntree-hde-fork.git
+              TAG a3fb6c68547612b8542f8380885b3e5bd76a75d7
               COMPONENT dynamics
               FOLDER src
               CMAKE_ARGS -DIDYNTREE_USES_IPOPT:BOOL=ON
